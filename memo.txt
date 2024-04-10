@@ -7,3 +7,6 @@
 
 # string
 - 자바9 이후 char[] > byte[]
+- string 풀은 힙에 위치
+- 문자열 비교는 항상 equals로 (EqualsMain2 참고)
+> string으로 메서드를 만들때 참조(new String)일지 리터럴일지 모르므로

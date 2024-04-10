@@ -1,7 +1,7 @@
 package lang.string.equals;
 
 public class StringEqualsMain2 {
-
+    //개발자 1이 코딩
     public static void main(String[] args) {
         String str1 = new String("hello");
         String str2 = new String("hello");
@@ -11,7 +11,7 @@ public class StringEqualsMain2 {
         String str4 = "hello";
         System.out.println("메서드 호출 비교2: " + isSame(str3, str4));
     }
-
+    // 개발자 2가 코딩 > 개발자 1이 주는 String
     private static boolean isSame(String x, String y) {
         //return x == y;
         return x.equals(y);
