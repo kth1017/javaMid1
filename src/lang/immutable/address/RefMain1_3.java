@@ -2,6 +2,7 @@ package lang.immutable.address;
 
 public class RefMain1_3 {
 
+    //코드가 길어져 개발자의 실수가 생길수있는 상황
     public static void main(String[] args) {
         Address a = new Address("서울");
         Address b = a;
