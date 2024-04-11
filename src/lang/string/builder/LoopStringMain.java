@@ -5,6 +5,7 @@ public class LoopStringMain {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
         String result = "";
+        // 루프에선 string으로 최적화 안됨
         for (int i = 0; i < 100000; i++) {
             result += "Hello Java ";
         }
