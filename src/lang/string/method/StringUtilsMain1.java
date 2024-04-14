@@ -20,7 +20,7 @@ public class StringUtilsMain1 {
         String numString2 = "" + num;
         System.out.println("빈문자열 + num: " + numString2);
 
-        // toCharArray 메서드
+        // toCharArray 메서드(sequence 추가)
         char[] strCharArray = str.toCharArray();
         System.out.println("문자열을 문자 배열로 변환: " + strCharArray);
         for (char c : strCharArray) {
