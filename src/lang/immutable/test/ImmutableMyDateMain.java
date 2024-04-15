@@ -3,6 +3,7 @@ package lang.immutable.test;
 public class ImmutableMyDateMain {
 
     public static void main(String[] args) {
+        //불변객체 사용
         //date1=x001, date2=x001
         ImmutableMyDate date1 = new ImmutableMyDate(2024, 1, 1);
         ImmutableMyDate date2 = date1;

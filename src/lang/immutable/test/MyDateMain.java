@@ -3,6 +3,7 @@ package lang.immutable.test;
 public class MyDateMain {
 
     public static void main(String[] args) {
+        //가변객체 사용
         MyDate date1 = new MyDate(2024, 1, 1);
         MyDate date2 = date1;
         System.out.println("date1 = " + date1);

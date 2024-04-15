@@ -12,6 +12,7 @@
 > 수정메서드는 set보단 with를 많이 씀
 
 # string
+- 클래스별 toString 오버라이딩 확인 필요(CharArrayMain 참고)
 - 자바9 이후 char[] > byte[]
 - string 풀은 힙에 위치
 - 문자열 비교는 항상 equals로 (EqualsMain2 참고)

@@ -11,7 +11,7 @@ public class StringEqualsMain2 {
         String str4 = "hello";
         System.out.println("메서드 호출 비교2: " + isSame(str3, str4));
     }
-    // 개발자 2가 코딩 > 개발자 1이 주는 String
+    // isSame을 개발자 2가 코딩 > 개발자간 string 리터럴과 객체 생성간 방법이 다름
     private static boolean isSame(String x, String y) {
         //return x == y;
         return x.equals(y);
