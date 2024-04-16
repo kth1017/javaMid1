@@ -1,6 +1,7 @@
 package lang.wrapper;
 
 public class WrapperVsPrimitive {
+    // 성능 비교
 
     public static void main(String[] args) {
         int iterations = 1_000_000_000; // 반복 횟수 설정, 10억
