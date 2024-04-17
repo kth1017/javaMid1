@@ -4,7 +4,16 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class ClassMetaMain {
+    // 리플렉션 학습때와 유사한 예제
     public static void main(String[] args) throws Exception {
+
+        //Class helloClass = Hello.class;
+        Class helloClass = Class.forName("lang.clazz.Hello");
+
+        Hello hello = (Hello) helloClass.getDeclaredConstructor().newInstance();
+        String result = hello.hello();
+        System.out.println("result = " + result);
+
         //Class 조회
         Class clazz = String.class; // 1. 클래스에서 조회
         //Class clazz = new String().getClass(); // 2. 인스턴스에서 조회
