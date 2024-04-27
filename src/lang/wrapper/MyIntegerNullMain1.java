@@ -16,6 +16,7 @@ public class MyIntegerNullMain1 {
                 return myInteger;
             }
         }
+        // 기본형은 반드시 지정값으로 반환해야하지만 객체는 리턴으로 널 가능
         return null;
     }
 }
