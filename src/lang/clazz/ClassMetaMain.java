@@ -7,11 +7,12 @@ public class ClassMetaMain {
     // 리플렉션 학습때와 유사한 예제
     public static void main(String[] args) throws Exception {
 
-        //Class helloClass = Hello.class;
-        Class helloClass = Class.forName("lang.clazz.Hello");
+        Class helloClass1 = Hello.class;
+        Class helloClass2 = Class.forName("lang.clazz.Hello");
 
-        Hello hello = (Hello) helloClass.getDeclaredConstructor().newInstance();
+        Hello hello = (Hello) helloClass2.getDeclaredConstructor().newInstance();
         String result = hello.hello();
+        System.out.println(helloClass1);
         System.out.println("result = " + result);
 
         //Class 조회

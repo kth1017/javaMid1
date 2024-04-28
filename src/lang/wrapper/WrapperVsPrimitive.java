@@ -4,7 +4,7 @@ public class WrapperVsPrimitive {
     // 성능 비교
 
     public static void main(String[] args) {
-        int iterations = 1_000_000_000; // 반복 횟수 설정, 10억
+        int iterations = 1_000_000_000; // 반복 횟수 설정, 10억(쉼표 대용 _ 가능)
         long startTime, endTime;
 
         // 기본형 long 사용
