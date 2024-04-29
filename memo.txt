@@ -37,6 +37,7 @@
 # system
 - sys.exit는 웹에선 거의 금지
 
+
 # enum
 - 제한된 인스턴스 생성, 데이터 일관성 보장
 - static import 사용
