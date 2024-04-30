@@ -31,6 +31,7 @@ public class LocalDateTimeMain {
         //비교
         System.out.println("현재 날짜시간이 지정 날짜시간보다 이전인가? " + nowDt.isBefore(ofDt));
         System.out.println("현재 날짜시간이 지정 날짜시간보다 이후인가? " + nowDt.isAfter(ofDt));
+        //equals 모든 요소(서울 9시 != 영국 0시) vs isEqual 타임존이 달라도 시간만 비교(서울 9시 == 영국 0시)
         System.out.println("현재 날짜시간과 지정 날짜시간이 같은가? " + nowDt.isEqual(ofDt));
     }
 }
