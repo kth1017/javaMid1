@@ -47,3 +47,10 @@
 - ordinal() 사용 지양(기존 순서가 다 밀려버림)
 - 이미 상속되어 추가 상속 불가능
 
+# util.Date
+- 역사
+1: calendar 도입
+1.1: calendar 문제 / Joda-time lib 도입
+1.8: Joda는 외부 lib / java.time 표준 api 도입
+(jpa도 비슷 : Joda = Hibernate, time = jpa)
+
