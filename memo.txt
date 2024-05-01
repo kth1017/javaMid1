@@ -53,4 +53,7 @@
 1.1: calendar 문제 / Joda-time lib 도입
 1.8: Joda는 외부 lib / java.time 표준 api 도입
 (jpa도 비슷 : Joda = Hibernate, time = jpa)
+- 일반적으로 해외 서비스를 생각하면 ZonedDateTime을 씀(단순 offset이라면 다름)
+- period 년월일 시간, duration 시분초 시간
+- 모든 time 관련 클래스는 불변
 
