@@ -56,4 +56,9 @@
 - 일반적으로 해외 서비스를 생각하면 ZonedDateTime을 씀(단순 offset이라면 다름)
 - period 년월일 시간, duration 시분초 시간
 - 모든 time 관련 클래스는 불변
+- zone은 대소문자 지켜야함, 어차피 Zoned나 offset 클래스는 실무에서 잘 사용x
+
+
+- Instant는 Epoch시간을 다룸
+
 

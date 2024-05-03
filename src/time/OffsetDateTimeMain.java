@@ -5,6 +5,7 @@ import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
 public class OffsetDateTimeMain {
+    // 타임존 멤버 없이 단순 오프셋만 가짐(따라서 섬머타임 적용x)
 
     public static void main(String[] args) {
         OffsetDateTime nowOdt = OffsetDateTime.now();

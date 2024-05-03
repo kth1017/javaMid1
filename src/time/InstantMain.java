@@ -6,6 +6,7 @@ import java.time.ZonedDateTime;
 public class InstantMain {
 
     public static void main(String[] args) {
+        // 멤버를 보면 초와 나노초만 포함 / 출력은 년월일로
         //생성
         Instant now = Instant.now();//UTC 기준
         System.out.println("now = " + now);
