@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 
 public class DurationMain {
+    // duration은 멤버로 초와 나노만 가지기에 단위 시간은 get 상위 시간은 to
 
     public static void main(String[] args) {
         Duration duration = Duration.ofMinutes(30);
@@ -21,6 +22,7 @@ public class DurationMain {
         LocalTime end = LocalTime.of(10, 0);
         Duration between = Duration.between(start, end);
         System.out.println("차이: " + between.getSeconds() + "초");
+        // minutesPart는 시간을 제외한 분(secondsPart는 없음)
         System.out.println("근무 시간: " + between.toHours() + "시간" + between.toMinutesPart() + "분");
 
     }

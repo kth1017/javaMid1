@@ -60,5 +60,9 @@
 
 
 - Instant는 Epoch시간을 다룸
+- 시각의 인터페이스는 Temporal(Accessor), 시간은 TemporalAmount
+- Accessor는 날짜와 시간을 읽기 위한 인터페이스 Temporal은 조작 추가
+- TemporalUnit[단위], *Field[]는 각각 ChronoUnit(Enum), *Field(Enum)로 구현
+- unit은 시간 계산에 사용되는 단위, field는 시간의 각 구성요소(part)
 
 

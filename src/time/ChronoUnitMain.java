@@ -6,6 +6,7 @@ import java.time.temporal.ChronoUnit;
 public class ChronoUnitMain {
 
     public static void main(String[] args) {
+        // TemporalUnit 상속
         ChronoUnit[] values = ChronoUnit.values();
         for (ChronoUnit value : values) {
             System.out.println("value = " + value);
@@ -24,5 +25,8 @@ public class ChronoUnitMain {
 
         long minutesBetween = ChronoUnit.MINUTES.between(lt1, lt2);
         System.out.println("minutesBetween = " + minutesBetween);
+
+
+
     }
 }
