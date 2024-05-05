@@ -3,6 +3,7 @@ package time;
 import java.time.*;
 
 public class ZonedDateTimeMain {
+    // 국제화 아니면 잘 안씀
 
     public static void main(String[] args) {
         LocalDateTime ldt = LocalDateTime.of(2030, 1, 1, 13, 30, 30);

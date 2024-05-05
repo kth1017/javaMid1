@@ -5,6 +5,7 @@ import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 
 public class ChronoFieldMain {
+    // TemporalField 상속, part 멤버
 
     public static void main(String[] args) {
         ChronoField[] values = ChronoField.values();

@@ -6,6 +6,7 @@ import java.time.LocalTime;
 import java.time.Period;
 
 public class PeriodMain {
+    // duration과 같이 TemporalAmount 관련
 
     public static void main(String[] args) {
         //생성

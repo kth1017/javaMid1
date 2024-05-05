@@ -6,7 +6,7 @@ import java.time.temporal.ChronoUnit;
 public class ChronoUnitMain {
 
     public static void main(String[] args) {
-        // TemporalUnit 상속
+        // TemporalUnit 상속, 시간 단위 멤버
         ChronoUnit[] values = ChronoUnit.values();
         for (ChronoUnit value : values) {
             System.out.println("value = " + value);
