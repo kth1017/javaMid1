@@ -65,4 +65,8 @@
 - TemporalUnit[단위], *Field[]는 각각 ChronoUnit(Enum), *Field(Enum)로 구현
 - unit은 시간 계산에 사용되는 단위, field는 시간의 각 구성요소(part)
 
+- 특정 시각은 모두 TemporalAccessor(get) 인터페이스 구현
+- 특정 시각의 조작은 그 자식인 Temporal(plus) 인터페이스 구현
+- 특정 단위별(다음주 금요일 등) 편리한 시간 조작은 with.TemporalAdjuster 사용
+
 
