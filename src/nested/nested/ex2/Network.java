@@ -7,6 +7,7 @@ public class Network {
         networkMessage.print();
     }
 
+    // private으로 닫아버려서 파악이 쉽도록
     private static class NetworkMessage {
 
         private String content;

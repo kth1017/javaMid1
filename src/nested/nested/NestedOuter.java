@@ -15,7 +15,7 @@ public class NestedOuter {
             // 바깥 클래스의 인스턴스 멤버에 접근에는 접근할 수 없다.
             //System.out.println(outInstanceValue);
 
-            // 바깥 클래스의 클래스 멤버에는 접근할 수 있다. private도 접근 가능
+            // 바깥 클래스의 클래스 멤버에는 접근할 수 있다. * private도 접근 가능(캡슐화 확장 가능)
             System.out.println(NestedOuter.outClassValue);
         }
     }
