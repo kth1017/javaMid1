@@ -12,7 +12,7 @@ public class InnerOuter {
             // 자기 자신에 접근
             System.out.println(innerInstanceValue);
 
-            // 외부 클래스의 인스턴스 멤버에 접근 가능, private도 접근 가능
+            // 외부 클래스의 인스턴스 멤버에 접근 가능, private도 접근 가능(실제 사용시 인스턴스 생성 후에만 접근 가능
             System.out.println(outInstanceValue);
 
             // 외부 클래스의 클래스 멤버에 접근 가능, private도 접근 가능

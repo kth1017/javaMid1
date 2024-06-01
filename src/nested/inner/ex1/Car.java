@@ -8,15 +8,14 @@ public class Car {
     public Car(String model, int chargeLevel) {
         this.model = model;
         this.chargeLevel = chargeLevel;
+        // 1. 쓸데없이 this를 받음
         this.engine = new Engine(this);
     }
 
-    //Engine에서만 사용하는 메서드
+    // 2. Engine에서만 사용하는 메서드
     public String getModel() {
         return model;
     }
-
-    //Engine에서만 사용하는 메서드
     public int getChargeLevel() {
         return chargeLevel;
     }
