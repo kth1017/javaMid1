@@ -30,6 +30,9 @@ public class LocalOuterV4 {
         // localVar = 10;
         // paramVar = 20;
 
+        // 결과적으로 스택 영역의 지역 변수와 힙 영역의 인스턴스에 캡쳐된 변수가 달라지는 동기화 문제
+        // 물론 이를 해결할 수 있게 설계하면 된다고 생각할 수 있지만 효율성이나 코드 가독성을 위해 막아둠
+
         return printer;
     }
 

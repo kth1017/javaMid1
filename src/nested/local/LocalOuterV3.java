@@ -34,9 +34,11 @@ public class LocalOuterV3 {
         LocalOuterV3 localOuter = new LocalOuterV3();
         Printer printer = localOuter.process(2);
         //printer.print()를 나중에 실행한다. process()의 스택 프레임이 사라진 이후에 실행
+        //여기서 변수 캡쳐가 없었다면 지역 변수는 이미 사라진 상태이므로 에러가 발생해야 한다
         printer.print();
 
-        //추가
+        //추가(실행시 나오는 스택트레이스를 보면 변수 캡쳐를 확인 가능)
+        // + 앞서 말했듯 내부 클래스는 바깥 클래스를 참조하기 위한 필드도 생성
         System.out.println("필드 확인");
         Field[] fields = printer.getClass().getDeclaredFields();
         for (Field field : fields) {
